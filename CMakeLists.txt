@@ -11,4 +11,4 @@ file(GLOB SRCS
 	"${PROJECT_SOURCE_DIR}/src/*.cpp"
 )
 
-add_library(SHELLINPUT SHARED ${SRCS})
+add_library(SHELLINPUT STATIC ${SRCS})
