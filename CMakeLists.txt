@@ -1,6 +1,6 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.10)
 
-PROJECT(SHELLINPUT)
+PROJECT(AUSI)
 
 include_directories(
 	"${PROJECT_SOURCE_DIR}/include/"
@@ -11,4 +11,4 @@ file(GLOB SRCS
 	"${PROJECT_SOURCE_DIR}/src/*.cpp"
 )
 
-add_library(SHELLINPUT STATIC ${SRCS})
+add_library(AUSI STATIC ${SRCS})
